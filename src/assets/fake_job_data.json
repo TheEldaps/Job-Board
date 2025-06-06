@@ -1,0 +1,704 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "type": "Full-time",
+      "role": "Senior React Developer",
+      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "salary": "77K - 95K",
+      "location": "Berlin, DE",
+      "company": {
+        "companyName": "AlgoShift",
+        "description": "A cutting-edge technology firm focused on AI solutions.",
+        "contactEmail": "njtrzmiz@company.com",
+        "contactPhone": "+1-173-9181425"
+      }
+    },
+    {
+      "id": 2,
+      "type": "Full-time",
+      "role": "UI/UX Designer",
+      "description": "We are seeking a talented individual to join our team and contribute to the development of robust and scalable web applications using modern frameworks and tools.",
+      "salary": "77K - 124K",
+      "location": "Paris, FR",
+      "company": {
+        "companyName": "QuantumSoft",
+        "description": "A pioneer in cloud computing and SaaS products.",
+        "contactEmail": "udxswvxy@company.com",
+        "contactPhone": "+1-189-7023740"
+      }
+    },
+    {
+      "id": 3,
+      "type": "Freelance",
+      "role": "Blockchain Developer",
+      "description": "Ideal candidates will be self-starters who enjoy taking initiative and ownership, with strong communication skills and a passion for innovation and technology.",
+      "salary": "90K - 121K",
+      "location": "Melbourne, AU",
+      "company": {
+        "companyName": "Innovatech",
+        "description": "A cutting-edge technology firm focused on AI solutions.",
+        "contactEmail": "taxosyfc@company.com",
+        "contactPhone": "+1-357-2776915"
+      }
+    },
+    {
+      "id": 4,
+      "type": "Internship",
+      "role": "Technical Support Engineer",
+      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "salary": "73K - 129K",
+      "location": "Bangalore, IN",
+      "company": {
+        "companyName": "ByteLabs",
+        "description": "A pioneer in cloud computing and SaaS products.",
+        "contactEmail": "zwjotkfo@company.com",
+        "contactPhone": "+1-164-4678395"
+      }
+    },
+    {
+      "id": 5,
+      "type": "Freelance",
+      "role": "Cloud Solutions Architect",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "salary": "73K - 119K",
+      "location": "Stockholm, SE",
+      "company": {
+        "companyName": "DevStream",
+        "description": "A fast-growing startup revolutionizing the SaaS industry.",
+        "contactEmail": "efcqmkav@company.com",
+        "contactPhone": "+1-111-3155467"
+      }
+    },
+    {
+      "id": 6,
+      "type": "Full-time",
+      "role": "Mobile App Developer",
+      "description": "Your tasks will include writing clean, efficient code, debugging and testing applications, and supporting deployment processes across different environments.",
+      "salary": "79K - 115K",
+      "location": "Amsterdam, NL",
+      "company": {
+        "companyName": "CodeCrafters",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "krqcqatw@company.com",
+        "contactPhone": "+1-256-1195797"
+      }
+    },
+    {
+      "id": 7,
+      "type": "Part-time",
+      "role": "Project Manager",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "salary": "71K - 130K",
+      "location": "Amsterdam, NL",
+      "company": {
+        "companyName": "ByteLabs",
+        "description": "An enterprise-focused software development firm.",
+        "contactEmail": "hygjuaxq@company.com",
+        "contactPhone": "+1-894-1696405"
+      }
+    },
+    {
+      "id": 8,
+      "type": "Full-time",
+      "role": "UI/UX Designer",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "salary": "73K - 109K",
+      "location": "Bangalore, IN",
+      "company": {
+        "companyName": "CodeCrafters",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "evnnwupr@company.com",
+        "contactPhone": "+1-893-6665865"
+      }
+    },
+    {
+      "id": 9,
+      "type": "Contract",
+      "role": "Full Stack Developer",
+      "description": "The position involves technical leadership opportunities, mentoring junior developers, and contributing to strategic planning and decision-making processes.",
+      "salary": "75K - 98K",
+      "location": "Vancouver, CA",
+      "company": {
+        "companyName": "AlgoShift",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "vritvqes@company.com",
+        "contactPhone": "+1-659-2799088"
+      }
+    },
+    {
+      "id": 10,
+      "type": "Full-time",
+      "role": "Cloud Solutions Architect",
+      "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
+      "salary": "87K - 105K",
+      "location": "Cape Town, ZA",
+      "company": {
+        "companyName": "CoreSoft",
+        "description": "A pioneer in cloud computing and SaaS products.",
+        "contactEmail": "ogwfwfaf@company.com",
+        "contactPhone": "+1-111-4380988"
+      }
+    },
+    {
+      "id": 11,
+      "type": "Contract",
+      "role": "Product Designer",
+      "description": "The position involves technical leadership opportunities, mentoring junior developers, and contributing to strategic planning and decision-making processes.",
+      "salary": "81K - 116K",
+      "location": "Mumbai, IN",
+      "company": {
+        "companyName": "DataNest",
+        "description": "A pioneer in cloud computing and SaaS products.",
+        "contactEmail": "swkpcqfb@company.com",
+        "contactPhone": "+1-541-9089307"
+      }
+    },
+    {
+      "id": 12,
+      "type": "Internship",
+      "role": "Software Tester",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "salary": "74K - 107K",
+      "location": "Paris, FR",
+      "company": {
+        "companyName": "BinaryPros",
+        "description": "A fast-growing startup revolutionizing the SaaS industry.",
+        "contactEmail": "ozqmkcfy@company.com",
+        "contactPhone": "+1-401-5971968"
+      }
+    },
+    {
+      "id": 13,
+      "type": "Full-time",
+      "role": "AI Researcher",
+      "description": "You will be responsible for designing and implementing new features, maintaining existing systems, and participating in code reviews and architectural discussions.",
+      "salary": "75K - 91K",
+      "location": "Austin, US",
+      "company": {
+        "companyName": "DevStream",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "dfjrblhy@company.com",
+        "contactPhone": "+1-221-6635303"
+      }
+    },
+    {
+      "id": 14,
+      "type": "Contract",
+      "role": "Software Tester",
+      "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
+      "salary": "73K - 119K",
+      "location": "Singapore, SG",
+      "company": {
+        "companyName": "BinaryPros",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "acaizmqf@company.com",
+        "contactPhone": "+1-825-9586163"
+      }
+    },
+    {
+      "id": 15,
+      "type": "Contract",
+      "role": "Project Manager",
+      "description": "You will collaborate closely with UI/UX designers and backend developers to create seamless user experiences that meet business goals and user needs.",
+      "salary": "83K - 95K",
+      "location": "San Francisco, US",
+      "company": {
+        "companyName": "DevStream",
+        "description": "An enterprise-focused software development firm.",
+        "contactEmail": "mieiiabd@company.com",
+        "contactPhone": "+1-816-6695383"
+      }
+    },
+    {
+      "id": 16,
+      "type": "Contract",
+      "role": "DevOps Engineer",
+      "description": "Ideal candidates will be self-starters who enjoy taking initiative and ownership, with strong communication skills and a passion for innovation and technology.",
+      "salary": "84K - 108K",
+      "location": "San Francisco, US",
+      "company": {
+        "companyName": "CodeCrafters",
+        "description": "An enterprise-focused software development firm.",
+        "contactEmail": "hibvqkdu@company.com",
+        "contactPhone": "+1-810-6430486"
+      }
+    },
+    {
+      "id": 17,
+      "type": "Full-time",
+      "role": "Junior React Developer",
+      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "salary": "85K - 123K",
+      "location": "Paris, FR",
+      "company": {
+        "companyName": "AlgoShift",
+        "description": "A cutting-edge technology firm focused on AI solutions.",
+        "contactEmail": "pgbpuibi@company.com",
+        "contactPhone": "+1-475-1609104"
+      }
+    },
+    {
+      "id": 18,
+      "type": "Remote",
+      "role": "Product Designer",
+      "description": "You will be responsible for designing and implementing new features, maintaining existing systems, and participating in code reviews and architectural discussions.",
+      "salary": "81K - 115K",
+      "location": "Toronto, CA",
+      "company": {
+        "companyName": "DataNest",
+        "description": "A cutting-edge technology firm focused on AI solutions.",
+        "contactEmail": "vzikwilq@company.com",
+        "contactPhone": "+1-262-9076069"
+      }
+    },
+    {
+      "id": 19,
+      "type": "Part-time",
+      "role": "Blockchain Developer",
+      "description": "Your tasks will include writing clean, efficient code, debugging and testing applications, and supporting deployment processes across different environments.",
+      "salary": "84K - 105K",
+      "location": "Berlin, DE",
+      "company": {
+        "companyName": "CyberGrid",
+        "description": "A pioneer in cloud computing and SaaS products.",
+        "contactEmail": "pggzwscw@company.com",
+        "contactPhone": "+1-739-8619502"
+      }
+    },
+    {
+      "id": 20,
+      "type": "Contract",
+      "role": "Software Tester",
+      "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
+      "salary": "70K - 129K",
+      "location": "London, UK",
+      "company": {
+        "companyName": "PixelWave",
+        "description": "A cutting-edge technology firm focused on AI solutions.",
+        "contactEmail": "ywmkedcy@company.com",
+        "contactPhone": "+1-530-9890895"
+      }
+    },
+    {
+      "id": 21,
+      "type": "Contract",
+      "role": "Senior React Developer",
+      "description": "The position involves technical leadership opportunities, mentoring junior developers, and contributing to strategic planning and decision-making processes.",
+      "salary": "85K - 129K",
+      "location": "Paris, FR",
+      "company": {
+        "companyName": "DevStream",
+        "description": "A fast-growing startup revolutionizing the SaaS industry.",
+        "contactEmail": "nrlmzein@company.com",
+        "contactPhone": "+1-142-2754172"
+      }
+    },
+    {
+      "id": 22,
+      "type": "Internship",
+      "role": "Senior React Developer",
+      "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
+      "salary": "88K - 129K",
+      "location": "Singapore, SG",
+      "company": {
+        "companyName": "AlgoShift",
+        "description": "A fast-growing startup revolutionizing the SaaS industry.",
+        "contactEmail": "yarglyhe@company.com",
+        "contactPhone": "+1-873-1369821"
+      }
+    },
+    {
+      "id": 23,
+      "type": "Contract",
+      "role": "Software Tester",
+      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "salary": "86K - 97K",
+      "location": "Toronto, CA",
+      "company": {
+        "companyName": "NeuralWorks",
+        "description": "A fast-growing startup revolutionizing the SaaS industry.",
+        "contactEmail": "qnwvgdol@company.com",
+        "contactPhone": "+1-888-9510533"
+      }
+    },
+    {
+      "id": 24,
+      "type": "Freelance",
+      "role": "UI/UX Designer",
+      "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
+      "salary": "74K - 127K",
+      "location": "Vancouver, CA",
+      "company": {
+        "companyName": "DevStream",
+        "description": "A pioneer in cloud computing and SaaS products.",
+        "contactEmail": "bzmqfivq@company.com",
+        "contactPhone": "+1-147-5577893"
+      }
+    },
+    {
+      "id": 25,
+      "type": "Part-time",
+      "role": "Senior React Developer",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "salary": "80K - 124K",
+      "location": "Nairobi, KE",
+      "company": {
+        "companyName": "Innovatech",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "uwfaervq@company.com",
+        "contactPhone": "+1-800-8987927"
+      }
+    },
+    {
+      "id": 26,
+      "type": "Part-time",
+      "role": "Software Tester",
+      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "salary": "77K - 110K",
+      "location": "Bangalore, IN",
+      "company": {
+        "companyName": "VisionaryTech",
+        "description": "A fast-growing startup revolutionizing the SaaS industry.",
+        "contactEmail": "cobvuasw@company.com",
+        "contactPhone": "+1-147-2244719"
+      }
+    },
+    {
+      "id": 27,
+      "type": "Contract",
+      "role": "Cybersecurity Analyst",
+      "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
+      "salary": "87K - 93K",
+      "location": "Nairobi, KE",
+      "company": {
+        "companyName": "CoreSoft",
+        "description": "A cutting-edge technology firm focused on AI solutions.",
+        "contactEmail": "hdahhwjy@company.com",
+        "contactPhone": "+1-738-6198597"
+      }
+    },
+    {
+      "id": 28,
+      "type": "Contract",
+      "role": "Machine Learning Engineer",
+      "description": "We are seeking a talented individual to join our team and contribute to the development of robust and scalable web applications using modern frameworks and tools.",
+      "salary": "89K - 124K",
+      "location": "Berlin, DE",
+      "company": {
+        "companyName": "Innovatech",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "xpgfhycz@company.com",
+        "contactPhone": "+1-418-4470193"
+      }
+    },
+    {
+      "id": 29,
+      "type": "Internship",
+      "role": "Frontend Engineer",
+      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we\u2019d love to meet you.",
+      "salary": "83K - 94K",
+      "location": "Zurich, CH",
+      "company": {
+        "companyName": "AlgoShift",
+        "description": "A fast-growing startup revolutionizing the SaaS industry.",
+        "contactEmail": "jlbpollk@company.com",
+        "contactPhone": "+1-930-7728004"
+      }
+    },
+    {
+      "id": 30,
+      "type": "Internship",
+      "role": "Security Engineer",
+      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we\u2019d love to meet you.",
+      "salary": "84K - 123K",
+      "location": "Amsterdam, NL",
+      "company": {
+        "companyName": "CyberGrid",
+        "description": "A cutting-edge technology firm focused on AI solutions.",
+        "contactEmail": "sxdoeuiu@company.com",
+        "contactPhone": "+1-618-1226280"
+      }
+    },
+    {
+      "id": 31,
+      "type": "Freelance",
+      "role": "Machine Learning Engineer",
+      "description": "You will collaborate closely with UI/UX designers and backend developers to create seamless user experiences that meet business goals and user needs.",
+      "salary": "87K - 130K",
+      "location": "Toronto, CA",
+      "company": {
+        "companyName": "NeuralWorks",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "oxwbhqay@company.com",
+        "contactPhone": "+1-858-3519895"
+      }
+    },
+    {
+      "id": 32,
+      "type": "Freelance",
+      "role": "Cybersecurity Analyst",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "salary": "78K - 118K",
+      "location": "London, UK",
+      "company": {
+        "companyName": "DevStream",
+        "description": "An enterprise-focused software development firm.",
+        "contactEmail": "ezcsjtdd@company.com",
+        "contactPhone": "+1-899-4042616"
+      }
+    },
+    {
+      "id": 33,
+      "type": "Remote",
+      "role": "Cloud Solutions Architect",
+      "description": "You will be responsible for designing and implementing new features, maintaining existing systems, and participating in code reviews and architectural discussions.",
+      "salary": "70K - 113K",
+      "location": "Zurich, CH",
+      "company": {
+        "companyName": "CyberGrid",
+        "description": "An enterprise-focused software development firm.",
+        "contactEmail": "knoeehuu@company.com",
+        "contactPhone": "+1-237-1563035"
+      }
+    },
+    {
+      "id": 34,
+      "type": "Internship",
+      "role": "UI/UX Designer",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "salary": "78K - 127K",
+      "location": "Melbourne, AU",
+      "company": {
+        "companyName": "FutureStack",
+        "description": "A cutting-edge technology firm focused on AI solutions.",
+        "contactEmail": "jlrvfnlm@company.com",
+        "contactPhone": "+1-895-1716228"
+      }
+    },
+    {
+      "id": 35,
+      "type": "Freelance",
+      "role": "Blockchain Developer",
+      "description": "You will collaborate closely with UI/UX designers and backend developers to create seamless user experiences that meet business goals and user needs.",
+      "salary": "80K - 109K",
+      "location": "Toronto, CA",
+      "company": {
+        "companyName": "BinaryPros",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "ndbbmflo@company.com",
+        "contactPhone": "+1-534-3965127"
+      }
+    },
+    {
+      "id": 36,
+      "type": "Part-time",
+      "role": "Blockchain Developer",
+      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we\u2019d love to meet you.",
+      "salary": "70K - 118K",
+      "location": "Toronto, CA",
+      "company": {
+        "companyName": "DataNest",
+        "description": "A fast-growing startup revolutionizing the SaaS industry.",
+        "contactEmail": "gejpuxfl@company.com",
+        "contactPhone": "+1-457-7804021"
+      }
+    },
+    {
+      "id": 37,
+      "type": "Part-time",
+      "role": "Technical Support Engineer",
+      "description": "Your tasks will include writing clean, efficient code, debugging and testing applications, and supporting deployment processes across different environments.",
+      "salary": "80K - 101K",
+      "location": "London, UK",
+      "company": {
+        "companyName": "CyberGrid",
+        "description": "A pioneer in cloud computing and SaaS products.",
+        "contactEmail": "pzokegyk@company.com",
+        "contactPhone": "+1-250-2583168"
+      }
+    },
+    {
+      "id": 38,
+      "type": "Internship",
+      "role": "Backend Developer",
+      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "salary": "80K - 123K",
+      "location": "Austin, US",
+      "company": {
+        "companyName": "CyberGrid",
+        "description": "An enterprise-focused software development firm.",
+        "contactEmail": "jzswqrsz@company.com",
+        "contactPhone": "+1-276-6295405"
+      }
+    },
+    {
+      "id": 39,
+      "type": "Remote",
+      "role": "DevOps Engineer",
+      "description": "You will be responsible for designing and implementing new features, maintaining existing systems, and participating in code reviews and architectural discussions.",
+      "salary": "74K - 103K",
+      "location": "Paris, FR",
+      "company": {
+        "companyName": "CoreSoft",
+        "description": "An enterprise-focused software development firm.",
+        "contactEmail": "xhneblgn@company.com",
+        "contactPhone": "+1-276-3720656"
+      }
+    },
+    {
+      "id": 40,
+      "type": "Contract",
+      "role": "Junior React Developer",
+      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "salary": "75K - 96K",
+      "location": "New York, US",
+      "company": {
+        "companyName": "CoreSoft",
+        "description": "An enterprise-focused software development firm.",
+        "contactEmail": "dbvliqed@company.com",
+        "contactPhone": "+1-363-5778719"
+      }
+    },
+    {
+      "id": 41,
+      "type": "Contract",
+      "role": "Security Engineer",
+      "description": "The position involves technical leadership opportunities, mentoring junior developers, and contributing to strategic planning and decision-making processes.",
+      "salary": "74K - 95K",
+      "location": "Paris, FR",
+      "company": {
+        "companyName": "DevStream",
+        "description": "A cutting-edge technology firm focused on AI solutions.",
+        "contactEmail": "qmoiosim@company.com",
+        "contactPhone": "+1-725-1059431"
+      }
+    },
+    {
+      "id": 42,
+      "type": "Full-time",
+      "role": "Data Analyst",
+      "description": "We are seeking a talented individual to join our team and contribute to the development of robust and scalable web applications using modern frameworks and tools.",
+      "salary": "81K - 130K",
+      "location": "London, UK",
+      "company": {
+        "companyName": "BinaryPros",
+        "description": "An enterprise-focused software development firm.",
+        "contactEmail": "bszohjzj@company.com",
+        "contactPhone": "+1-341-6377171"
+      }
+    },
+    {
+      "id": 43,
+      "type": "Internship",
+      "role": "Blockchain Developer",
+      "description": "You will be responsible for designing and implementing new features, maintaining existing systems, and participating in code reviews and architectural discussions.",
+      "salary": "74K - 96K",
+      "location": "Melbourne, AU",
+      "company": {
+        "companyName": "PixelWave",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "tjmurtxn@company.com",
+        "contactPhone": "+1-286-8398204"
+      }
+    },
+    {
+      "id": 44,
+      "type": "Freelance",
+      "role": "Technical Support Engineer",
+      "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
+      "salary": "87K - 116K",
+      "location": "Zurich, CH",
+      "company": {
+        "companyName": "DataNest",
+        "description": "An enterprise-focused software development firm.",
+        "contactEmail": "pwvuhwij@company.com",
+        "contactPhone": "+1-964-7012824"
+      }
+    },
+    {
+      "id": 45,
+      "type": "Internship",
+      "role": "Frontend Engineer",
+      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "salary": "84K - 113K",
+      "location": "Amsterdam, NL",
+      "company": {
+        "companyName": "FutureStack",
+        "description": "A pioneer in cloud computing and SaaS products.",
+        "contactEmail": "aghtgwlu@company.com",
+        "contactPhone": "+1-944-2226375"
+      }
+    },
+    {
+      "id": 46,
+      "type": "Internship",
+      "role": "Senior React Developer",
+      "description": "The position involves technical leadership opportunities, mentoring junior developers, and contributing to strategic planning and decision-making processes.",
+      "salary": "72K - 97K",
+      "location": "London, UK",
+      "company": {
+        "companyName": "NeuralWorks",
+        "description": "A pioneer in cloud computing and SaaS products.",
+        "contactEmail": "mmpekjnx@company.com",
+        "contactPhone": "+1-246-4128076"
+      }
+    },
+    {
+      "id": 47,
+      "type": "Part-time",
+      "role": "Technical Support Engineer",
+      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we\u2019d love to meet you.",
+      "salary": "75K - 104K",
+      "location": "Zurich, CH",
+      "company": {
+        "companyName": "QuantumSoft",
+        "description": "An enterprise-focused software development firm.",
+        "contactEmail": "kraddmso@company.com",
+        "contactPhone": "+1-347-1568219"
+      }
+    },
+    {
+      "id": 48,
+      "type": "Internship",
+      "role": "QA Automation Tester",
+      "description": "You will collaborate closely with UI/UX designers and backend developers to create seamless user experiences that meet business goals and user needs.",
+      "salary": "81K - 91K",
+      "location": "Amsterdam, NL",
+      "company": {
+        "companyName": "ByteLabs",
+        "description": "A pioneer in cloud computing and SaaS products.",
+        "contactEmail": "oomyntae@company.com",
+        "contactPhone": "+1-889-2292505"
+      }
+    },
+    {
+      "id": 49,
+      "type": "Remote",
+      "role": "Product Designer",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "salary": "78K - 128K",
+      "location": "Stockholm, SE",
+      "company": {
+        "companyName": "TechNova",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "zytdclay@company.com",
+        "contactPhone": "+1-932-6947614"
+      }
+    },
+    {
+      "id": 50,
+      "type": "Full-time",
+      "role": "Project Manager",
+      "description": "Ideal candidates will be self-starters who enjoy taking initiative and ownership, with strong communication skills and a passion for innovation and technology.",
+      "salary": "81K - 91K",
+      "location": "Lagos, NG",
+      "company": {
+        "companyName": "CodeCrafters",
+        "description": "A cybersecurity company protecting businesses worldwide.",
+        "contactEmail": "eqojctlr@company.com",
+        "contactPhone": "+1-550-3241609"
+      }
+    }
+  ]
+}
