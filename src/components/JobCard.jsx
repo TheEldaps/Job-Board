@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function JobCard({ job }) {
   const [showFullDetails, setShowFullDetails] = useState(false);
@@ -27,9 +28,12 @@ export default function JobCard({ job }) {
       <div className="md:flex justify-between items-center mt-[10px]">
         <p className="my-[10px] text-[#e3231d]">{job.location}</p>
 
-        <button className="block w-[100%] bg-[#4a64ce] py-[5px] rounded-lg text-[0.8rem] text-[white] cursor-pointer hover:text-[#92a2de] md:w-[100px] md:h-[40px]">
+        <Link
+          to={`/job/${job.id}`}
+          className="block  bg-[#4a64ce] py-[5px] rounded-lg text-[0.8rem] text-center text-[white] cursor-pointer hover:text-[#92a2de] md:w-[100px] md:h-[40px]"
+        >
           Read More
-        </button>
+        </Link>
       </div>
     </article>
   );
