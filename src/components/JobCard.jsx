@@ -30,7 +30,7 @@ export default function JobCard({ job }) {
 
         <Link
           to={`/job/${job.id}`}
-          className="block  bg-[#4a64ce] py-[5px] rounded-lg text-[0.8rem] text-center text-[white] cursor-pointer hover:text-[#92a2de] md:w-[100px] md:h-[40px]"
+          className="block bg-[#4a64ce] py-[5px] rounded-lg text-[0.8rem] text-center text-[white] cursor-pointer hover:text-[#92a2de] md:w-[80px] md:"
         >
           Read More
         </Link>

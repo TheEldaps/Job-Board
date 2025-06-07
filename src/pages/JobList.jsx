@@ -33,11 +33,7 @@ export default function JobList() {
         <h2 className="text-[1.7rem] text-center font-bold text-[#4a64ce] my-[10px]">
           All Jobs
         </h2>
-        <div
-          className={`grid grid-cols-1 gap-[20px] place-items-center max-w-[90%] mx-[auto] py-[10px]  ${
-            loading ? "md:grid-cols-1" : "md:grid-cols-3"
-          } `}
-        >
+        <div className="mx-[auto]">
           {loading ? (
             <div className="flex justify-center items-center h-[100%] mx-[500px] ">
               <BounceLoader
@@ -49,22 +45,20 @@ export default function JobList() {
               />
             </div>
           ) : (
-            jobData.map((job) => {
-              return <JobCard key={job.id} job={job} />;
-            })
+            <div
+              className={`grid grid-cols-1 md:grid-cols-3 gap-[20px] place-items-center max-w-[90%] mx-auto py-[10px] transition-all duration-700 ease-in-out transform ${
+                loading
+                  ? "opacity-0 translate-y-[200px]"
+                  : "opacity-100 translate-y-0"
+              }`}
+            >
+              {jobData.map((job) => {
+                return <JobCard key={job.id} job={job} />;
+              })}
+            </div>
           )}
         </div>
       </section>
     </>
   );
 }
-
-<div className="flex justify-center items-center h-[100%]  border-[blue] border-2 mx-[500px] ">
-  <BounceLoader
-    color="#1717ba"
-    size={80}
-    loading={true}
-    speedMultiplier={1.5}
-    cssOverride={{ margin: "200px auto" }}
-  />
-</div>;
