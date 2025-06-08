@@ -3,6 +3,7 @@ import LandingPage from "./pages/LandingPage";
 import JobList from "./pages/JobList";
 import AddJobs from "./pages/AddJobs";
 import ErrorPage from "./pages/ErrorPage";
+import JobPage from "./pages/JobPage";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/jobs" element={<JobList />} />
         <Route path="/add_job" element={<AddJobs />} />
+        <Route path="/job/:id" element={<JobPage />} />
         <Route path="/*" element={<ErrorPage />} />
       </Routes>
     </Router>
