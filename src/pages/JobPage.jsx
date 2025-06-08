@@ -69,10 +69,10 @@ export default function JobPage() {
             <aside className="bg-[white] border-2 p-[20px] rounded-2xl">
               <h3 className="mb-[20px] font-bold">Manage Job</h3>
               <div className="">
-                <button className="bg-[blue] block mb-[10px] mx-[auto] px-[40px] min-w-[150px] py-[5px] text-[white] rounded">
+                <button className="bg-[blue] block mb-[10px] mx-[auto] px-[40px] min-w-[150px] py-[5px] text-[white] hover:text-[#ffffff6d] cursor-pointer rounded">
                   Edit Job
                 </button>
-                <button className="bg-[red] mx-[auto] px-[40px] py-[5px] block text-[white] min-w-[150px] rounded">
+                <button className="bg-[red] cursor-pointer mx-[auto] px-[40px] py-[5px] block text-[white] min-w-[150px] hover:text-[#ffffff6d] rounded">
                   Delete Job
                 </button>
               </div>
