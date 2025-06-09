@@ -28,45 +28,51 @@ export default function JobPage() {
   return (
     <>
       <Nav />
-      <div className="p-[20px] ml-[130px]">
+      <div className="p-[10px] pl-[30px] md:ml-[130px] ">
         <Link to="/jobs" className="text-[blue] text-[1.1rem] h-[40px]">
-          Back to Job Listings{" "}
+          Back
         </Link>
       </div>
       {loading ? (
         <BounceLoader />
       ) : (
-        <section className="grid md:grid-cols-[2fr_1fr] gap-[40px] pb-[20px] bg-[#efeeee] pt-[50px] md:px-[150px]">
+        <section className="grid md:grid-cols-[2fr_1fr] gap-[20px] md:gap-[40px] px-[30px] pb-[20px] bg-[#efeeee] pt-[50px] md:px-[150px]">
           <div className="">
-            <article className="bg-[white] border-2 mb-[40px] p-[20px] md:h-[120px] rounded-2xl ">
+            <article className="bg-[white]  mb-[20px] md:mb-[40px] p-[20px] md:h-[120px] rounded-2xl shadow-[4px_4px_5px_rgba(0,0,0,0.1)] ">
               <h3 className="text-[0.8rem] ">{job.type}</h3>
               <h2 className="text-[1.2rem] font-bold mb-[6px]">{job.role}</h2>
               <p className="text-[0.8rem] text-[red]">{job.location}</p>
             </article>
 
-            <article className="border-2 md:h-[300px] p-[20px] rounded-2xl">
-              <h3>Job Description</h3>
-              <p>{job.description}</p>
-              <h3>Salary</h3>
+            <article className="bg-[white] md:h-[300px] p-[20px] rounded-2xl shadow-[4px_4px_5px_rgba(0,0,0,0.1)]">
+              <h3 className="font-bold mb-[10px] text-[blue]">
+                Job Description
+              </h3>
+              <p className="text-[0.9rem] mb-[20px] text-justify">
+                {job.description}
+              </p>
+              <h3 className="font-bold text-[blue]">Salary</h3>
               <p>{job.salary}</p>
             </article>
           </div>
           <div>
-            <aside className="bg-[white] border-2 min-h-[400px] mb-[40px] p-[20px] rounded-2xl">
-              <h2 className="font-bold">Company info</h2>
-              <h2>{job.company.companyName}</h2>
+            <aside className="bg-[white]  min-h-[400px] mb-[20px] md:mb-[40px] p-[20px] rounded-2xl shadow-[4px_4px_5px_rgba(0,0,0,0.1)]">
+              <h2 className="font-bold mb-[10px]">Company info</h2>
+              <h2 className="text-[1.2rem] font-bold mb-[5px]">
+                {job.company.companyName}
+              </h2>
               <p>{job.company.description}</p>
-              <hr />
+              <hr className="my-[30px]" />
 
               <div>
-                <h2>Contact Email:</h2>
-                <h3>{job.company.contactEmail}</h3>
-                <h2>Contact Phone:</h2>
+                <h2 className="text-[1.1rem]">Contact Email:</h2>
+                <h3 className="mb-[10px]">{job.company.contactEmail}</h3>
+                <h2 className="text-[1.1rem]">Contact Phone:</h2>
                 <h3>{job.company.contactPhone}</h3>
               </div>
             </aside>
 
-            <aside className="bg-[white] border-2 p-[20px] rounded-2xl">
+            <aside className="bg-[white]  p-[20px] rounded-2xl shadow-[4px_4px_5px_rgba(0,0,0,0.1)]">
               <h3 className="mb-[20px] font-bold">Manage Job</h3>
               <div className="">
                 <button className="bg-[blue] block mb-[10px] mx-[auto] px-[40px] min-w-[150px] py-[5px] text-[white] hover:text-[#ffffff6d] cursor-pointer rounded">
