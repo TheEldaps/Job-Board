@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
 
 export default function JobCard({ job }) {
   const [showFullDetails, setShowFullDetails] = useState(false);
@@ -26,7 +27,11 @@ export default function JobCard({ job }) {
       </p>
       <hr />
       <div className="md:flex justify-between items-center mt-[10px]">
-        <p className="my-[10px] text-[#e3231d]">{job.location}</p>
+        <p className=" flex my-[10px] text-[#e3231d]">
+          <FaMapMarker className="text-[red] mr-[5px] mt-[3px]" />
+
+          {job.location}
+        </p>
 
         <Link
           to={`/job/${job.id}`}

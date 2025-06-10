@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Nav from "../components/Nav";
 import JobCard from "../components/JobCard";
 import { BounceLoader } from "react-spinners";
-import { useBlocker } from "react-router-dom";
 
 export default function JobList() {
   const [jobData, setJobData] = useState([]);

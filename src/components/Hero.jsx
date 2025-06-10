@@ -2,8 +2,8 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col justify-center h-[200px] md:h-[300px] text-center bg-[#1717ba] text-[white] ">
-      <h1 className="text-[2rem] text-center font-bold mb-[10px] md:text-[3.5rem]">
+    <section className="flex flex-col justify-center h-[200px] md:h-[95vh] text-center bg-[#1717ba] text-[white] ">
+      <h1 className="text-[2rem] text-center font-bold mb-[10px] md:text-[5rem]">
         <span> Become a</span>
 
         <span>
@@ -26,11 +26,6 @@ export default function Hero() {
       <p className="md:text-[1.8rem]">
         Find a job that fits your skills and needs
       </p>
-
-      {/* <h1 className="text-[2rem] text-center font-bold mb-[10px] md:text-[3.5rem]">
-        Become a React Developer
-      </h1>
-       */}
     </section>
   );
 }

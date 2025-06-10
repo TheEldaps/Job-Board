@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { BounceLoader } from "react-spinners";
+import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
 
 export default function JobPage() {
   const [job, setJob] = useState({});
@@ -29,7 +30,11 @@ export default function JobPage() {
     <>
       <Nav />
       <div className="p-[10px] pl-[30px] md:ml-[130px] ">
-        <Link to="/jobs" className="text-[blue] text-[1.1rem] h-[40px]">
+        <Link
+          to="/jobs"
+          className="flex text-[blue] text-[1.1rem] h-[40px] hover:text-[#0000ff4f]"
+        >
+          <FaArrowLeft className="text-[blue] mr-[4px] mt-[5px] hover:text-[#0000ff4f]" />
           Back
         </Link>
       </div>
@@ -41,7 +46,10 @@ export default function JobPage() {
             <article className="bg-[white]  mb-[20px] md:mb-[40px] p-[20px] md:h-[120px] rounded-2xl shadow-[4px_4px_5px_rgba(0,0,0,0.1)] ">
               <h3 className="text-[0.8rem] ">{job.type}</h3>
               <h2 className="text-[1.2rem] font-bold mb-[6px]">{job.role}</h2>
-              <p className="text-[0.8rem] text-[red]">{job.location}</p>
+              <p className="flex text-[0.8rem] text-[red]">
+                <FaMapMarker className="text-[red] mr-[3px] mt-[3px]" />{" "}
+                {job.location}
+              </p>
             </article>
 
             <article className="bg-[white] md:h-[300px] p-[20px] rounded-2xl shadow-[4px_4px_5px_rgba(0,0,0,0.1)]">

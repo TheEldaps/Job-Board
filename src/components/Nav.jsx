@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import NavImg from "../images/react-logo.png";
+import NavImg from "../assets/TechNest-01.png";
 
 export default function Nav() {
   const [showNav, setShowNav] = useState(false);
@@ -44,9 +44,15 @@ export default function Nav() {
   return (
     <header className="border-b-2 border-b-white">
       <nav className="flex justify-around items-center text-[white] text-[1.3rem] font-[Arial] h-[50px] bg-[#1717ba] ">
-        <div className=" flex items-center min-w-[250px]">
-          <img src={NavImg} alt="" className="w-[50px] mr-[10px]" />
-          <span>React Jobs</span>
+        <div className=" flex  items-center min-w-[250px] h-[100%]">
+          <Link to="/">
+            <img
+              src={NavImg}
+              alt=""
+              className="w-[80px] mt-[20px] h-[80px] mr-[10px] "
+            />
+          </Link>
+          {/* <span>React Jobs</span> */}
         </div>
 
         <div className="md:hidden">
