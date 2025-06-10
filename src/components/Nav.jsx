@@ -49,7 +49,7 @@ export default function Nav() {
             <img
               src={NavImg}
               alt=""
-              className="w-[80px] mt-[20px] h-[80px] mr-[10px] "
+              className="w-[80px] mt-[20px] h-[80px] mr-[10px]"
             />
           </Link>
           {/* <span>React Jobs</span> */}
@@ -63,8 +63,7 @@ export default function Nav() {
 
         {/* Desktop Navlist */}
         <div className="hidden md:flex md:flex-grow md:max-w-[50%]">
-          {" "}
-          {NavList}{" "}
+          {NavList}
         </div>
       </nav>
 
