@@ -1,11 +1,40 @@
 import Nav from "../components/Nav";
+import { useState } from "react";
+
 export default function AddJobs() {
+  const [type, setType] = useState();
+  const [title, setTitle] = useState();
+  const [description, setDescription] = useState();
+  const [salary, setSalary] = useState();
+  const [location, setLocation] = useState();
+  const [companyName, setCompanyName] = useState();
+  const [companyDescription, setCompanyDescription] = useState();
+  const [contactEmail, setContactEmail] = useState();
+  const [contactPhone, setContactPhone] = useState();
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log(type);
+    console.log(title);
+    console.log(description);
+    console.log(salary);
+    console.log(location);
+    console.log(companyName);
+    console.log(companyDescription);
+    console.log(contactPhone);
+
+    // const job = {};
+  }
+
   return (
     <section className="">
       <Nav />
-      <section className="flex justify-center pb-[20px] min-h-[100vh] pt-[80px] bg-[#86bcf955]">
-        <form className="w-[350px] bg-[white] pb-[20px] mb-[20px] px-[20px] border-2">
-          <h1 className="text-center pt-[20px] font-bold text-[1.3rem] pb-[20px]">
+      <section className="flex justify-center px-[10%] pb-[20px] min-h-[100vh] pt-[80px] bg-[#86bcf955]">
+        <form
+          onSubmit={handleSubmit}
+          className=" grow max-w-[500px] w-[350px] bg-[white] pb-[20px] mb-[20px] px-[20px] border-2"
+        >
+          <h1 className="text-center pt-[20px] font-bold text-[1.3rem] pb-[20px] md:text-[1.9rem]">
             Add Job
           </h1>
 
@@ -14,11 +43,17 @@ export default function AddJobs() {
               <label htmlFor="job-type" className="block">
                 Job Type
               </label>
+
               <select
                 type="text"
                 id="type"
                 className="border-1 w-[100%] p-[5px]"
+                value={type}
+                onChange={(e) => {
+                  setType(e.target.value);
+                }}
               >
+                <option value="">--Select job type--</option>
                 <option value="Full-time">Full-Time</option>
                 <option value="Part-Time">Part-Time</option>
                 <option value="Contract">Remote</option>
@@ -35,6 +70,10 @@ export default function AddJobs() {
                 id="job-title"
                 name="job-title"
                 className="w-[100%] p-[5px] border-1"
+                value={title}
+                onChange={(e) => {
+                  setTitle(e.target.value);
+                }}
               />
             </div>
 
@@ -47,26 +86,41 @@ export default function AddJobs() {
                 id="Description"
                 className="w-[100%] p-[5px] border-1"
                 rows={5}
+                value={description}
+                onChange={(e) => {
+                  setDescription(e.target.value);
+                }}
               ></textarea>
             </div>
 
             <div className="mb-[20px]">
-              <label htmlFor="salary" className="block w-[100%]">
+              <label htmlFor="salary" className="w-[100%] block">
                 Salary
               </label>
-              <select name="salary" id="salary" className="border-1">
+
+              <select
+                name="salary"
+                id="salary"
+                className="border-1 w-[100%] p-[5px]"
+                value={salary}
+                onChange={(e) => {
+                  setSalary(e.target.value);
+                }}
+              >
+                <option value="">--Select salary range--</option>
                 <option value="Under $50K">Under $50K</option>
-                <option value="$50K-$60K">$50K -$60K</option>
-                <option value="$60K-$70K">$60K-$70K</option>
-                <option value="$70K-$80K">$70K-$80K</option>
-                <option value="$80K-$90K">$80K-$90K</option>
-                <option value="$90K-$100K">$90K-$100K</option>
-                <option value="$100K-$125K">$100K-$110K</option>
-                <option value="$125-$150K">$110-$120K</option>
-                <option value="$150-$175K">$120-$130K</option>
-                <option value="175K-200K">$175K-$$200K</option>
+                <option value="$50K-$60K">$50K - $60K</option>
+                <option value="$60K-$70K">$60K - $70K</option>
+                <option value="$70K-$80K">$70K - $80K</option>
+                <option value="$80K-$90K">$80K - $90K</option>
+                <option value="$90K-$100K">$90K - $100K</option>
+                <option value="$100K-$125K">$100K - $125K</option>
+                <option value="$125-$150K">$125 - $150K</option>
+                <option value="$150-$175K">$150 - $175K</option>
+                <option value="$175K-$200K">$175K - $200K</option>
               </select>
             </div>
+
             <div>
               <label htmlFor="location" className="block">
                 Location
@@ -76,6 +130,10 @@ export default function AddJobs() {
                 id="location"
                 name="location"
                 className="w-[100%] p-[5px] border-1"
+                value={location}
+                onChange={(e) => {
+                  setLocation(e.target.value);
+                }}
               />
             </div>
           </section>
@@ -93,6 +151,10 @@ export default function AddJobs() {
                 name="comany-name"
                 id="company-name"
                 className="w-[100%] p-[5px] border-1"
+                value={companyName}
+                onChange={(e) => {
+                  setCompanyName(e.target.value);
+                }}
               />
             </div>
 
@@ -106,6 +168,10 @@ export default function AddJobs() {
                 id="company-description"
                 className="w-[100%] p-[5px] border-1"
                 rows={5}
+                value={companyDescription}
+                onChange={(e) => {
+                  setCompanyDescription(e.target.value);
+                }}
               ></textarea>
             </div>
 
@@ -118,6 +184,10 @@ export default function AddJobs() {
                 id="contact-email"
                 name="contact-email"
                 className="w-[100%] p-[5px] border-1"
+                value={contactEmail}
+                onChange={(e) => {
+                  setContactEmail(e.target.value);
+                }}
               />
             </div>
 
@@ -130,6 +200,10 @@ export default function AddJobs() {
                 id="contact-phone"
                 name="contact-name"
                 className="w-[100%] p-[5px] border-1"
+                value={contactPhone}
+                onChange={(e) => {
+                  setContactPhone(e.target.value);
+                }}
               />
             </div>
 
