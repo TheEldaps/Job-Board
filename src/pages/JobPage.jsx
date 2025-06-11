@@ -10,6 +10,7 @@ export default function JobPage() {
   const [loading, setLoading] = useState(true);
   const { id } = useParams();
 
+  // The effect below sends a request to the API fetches the jobs in the database
   useEffect(() => {
     async function fetchJob() {
       try {
@@ -22,9 +23,28 @@ export default function JobPage() {
         setLoading(false);
       }
     }
-
     fetchJob();
   }, []);
+
+  //This function handles the editing of a job detail
+  async function handleEdit(id) {
+    const res = await fetch(`http://localhost:3173/${id}`);
+  }
+
+  //This function handles the deletion of a job
+  async function handleDelete(id) {
+    const confirm = window.confirm(
+      "Are you sure you want to delete this listing?"
+    );
+
+    if (!confirm) {
+      return;
+    }
+
+    const res = await fetch(`http://localhost:3173/${id}`, {
+      method: "DELETE",
+    });
+  }
 
   return (
     <>
@@ -83,10 +103,17 @@ export default function JobPage() {
             <aside className="bg-[white]  p-[20px] rounded-2xl shadow-[4px_4px_5px_rgba(0,0,0,0.1)]">
               <h3 className="mb-[20px] font-bold">Manage Job</h3>
               <div className="">
-                <button className="bg-[blue] block mb-[10px] mx-[auto] px-[40px] min-w-[150px] py-[5px] text-[white] hover:text-[#ffffff6d] cursor-pointer rounded">
+                <button
+                  className="bg-[blue] block mb-[10px] mx-[auto] px-[40px] min-w-[150px] py-[5px] text-[white] hover:text-[#ffffff6d] cursor-pointer rounded"
+                  onClick={handleEdit}
+                >
                   Edit Job
                 </button>
-                <button className="bg-[red] cursor-pointer mx-[auto] px-[40px] py-[5px] block text-[white] min-w-[150px] hover:text-[#ffffff6d] rounded">
+
+                <button
+                  className="bg-[red] cursor-pointer mx-[auto] px-[40px] py-[5px] block text-[white] min-w-[150px] hover:text-[#ffffff6d] rounded"
+                  onClick={handleDelete}
+                >
                   Delete Job
                 </button>
               </div>

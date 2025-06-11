@@ -27,6 +27,7 @@ export default function AddJobs() {
       });
     }
 
+    //create the new job using the value i the states above
     const newJob = {
       type,
       role: title,
