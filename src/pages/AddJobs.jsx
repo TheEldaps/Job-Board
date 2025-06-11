@@ -1,5 +1,6 @@
 import Nav from "../components/Nav";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function AddJobs() {
   const [type, setType] = useState();
@@ -12,18 +13,36 @@ export default function AddJobs() {
   const [contactEmail, setContactEmail] = useState();
   const [contactPhone, setContactPhone] = useState();
 
+  const navigate = useNavigate();
+
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(type);
-    console.log(title);
-    console.log(description);
-    console.log(salary);
-    console.log(location);
-    console.log(companyName);
-    console.log(companyDescription);
-    console.log(contactPhone);
 
-    // const job = {};
+    //Function to add the newly created job to server
+    async function addToServer(newJob) {
+      const res = await fetch("http://localhost:3001/jobs", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(newJob),
+      });
+    }
+
+    const newJob = {
+      type,
+      role: title,
+      description,
+      salary,
+      location,
+      company: {
+        companyName,
+        description: companyDescription,
+        contactEmail,
+        contactPhone,
+      },
+    };
+
+    addToServer(newJob);
+    return navigate("/jobs");
   }
 
   return (

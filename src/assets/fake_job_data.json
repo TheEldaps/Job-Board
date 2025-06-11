@@ -1,10 +1,10 @@
 {
   "jobs": [
     {
-      "id": 1,
+      "id": "1",
       "type": "Full-time",
       "role": "Senior React Developer",
-      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "description": "In this role, you’ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
       "salary": "77K - 95K",
       "location": "Berlin, DE",
       "company": {
@@ -15,7 +15,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "type": "Full-time",
       "role": "UI/UX Designer",
       "description": "We are seeking a talented individual to join our team and contribute to the development of robust and scalable web applications using modern frameworks and tools.",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "type": "Freelance",
       "role": "Blockchain Developer",
       "description": "Ideal candidates will be self-starters who enjoy taking initiative and ownership, with strong communication skills and a passion for innovation and technology.",
@@ -43,10 +43,10 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "type": "Internship",
       "role": "Technical Support Engineer",
-      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "description": "In this role, you’ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
       "salary": "73K - 129K",
       "location": "Bangalore, IN",
       "company": {
@@ -57,10 +57,10 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "type": "Freelance",
       "role": "Cloud Solutions Architect",
-      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company’s success and direction.",
       "salary": "73K - 119K",
       "location": "Stockholm, SE",
       "company": {
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "type": "Full-time",
       "role": "Mobile App Developer",
       "description": "Your tasks will include writing clean, efficient code, debugging and testing applications, and supporting deployment processes across different environments.",
@@ -85,10 +85,10 @@
       }
     },
     {
-      "id": 7,
+      "id": "7",
       "type": "Part-time",
       "role": "Project Manager",
-      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company’s success and direction.",
       "salary": "71K - 130K",
       "location": "Amsterdam, NL",
       "company": {
@@ -99,10 +99,10 @@
       }
     },
     {
-      "id": 8,
+      "id": "8",
       "type": "Full-time",
       "role": "UI/UX Designer",
-      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company’s success and direction.",
       "salary": "73K - 109K",
       "location": "Bangalore, IN",
       "company": {
@@ -113,7 +113,7 @@
       }
     },
     {
-      "id": 9,
+      "id": "9",
       "type": "Contract",
       "role": "Full Stack Developer",
       "description": "The position involves technical leadership opportunities, mentoring junior developers, and contributing to strategic planning and decision-making processes.",
@@ -127,7 +127,7 @@
       }
     },
     {
-      "id": 10,
+      "id": "10",
       "type": "Full-time",
       "role": "Cloud Solutions Architect",
       "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
@@ -141,7 +141,7 @@
       }
     },
     {
-      "id": 11,
+      "id": "11",
       "type": "Contract",
       "role": "Product Designer",
       "description": "The position involves technical leadership opportunities, mentoring junior developers, and contributing to strategic planning and decision-making processes.",
@@ -155,10 +155,10 @@
       }
     },
     {
-      "id": 12,
+      "id": "12",
       "type": "Internship",
       "role": "Software Tester",
-      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company’s success and direction.",
       "salary": "74K - 107K",
       "location": "Paris, FR",
       "company": {
@@ -169,7 +169,7 @@
       }
     },
     {
-      "id": 13,
+      "id": "13",
       "type": "Full-time",
       "role": "AI Researcher",
       "description": "You will be responsible for designing and implementing new features, maintaining existing systems, and participating in code reviews and architectural discussions.",
@@ -183,7 +183,7 @@
       }
     },
     {
-      "id": 14,
+      "id": "14",
       "type": "Contract",
       "role": "Software Tester",
       "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
@@ -197,7 +197,7 @@
       }
     },
     {
-      "id": 15,
+      "id": "15",
       "type": "Contract",
       "role": "Project Manager",
       "description": "You will collaborate closely with UI/UX designers and backend developers to create seamless user experiences that meet business goals and user needs.",
@@ -211,7 +211,7 @@
       }
     },
     {
-      "id": 16,
+      "id": "16",
       "type": "Contract",
       "role": "DevOps Engineer",
       "description": "Ideal candidates will be self-starters who enjoy taking initiative and ownership, with strong communication skills and a passion for innovation and technology.",
@@ -225,10 +225,10 @@
       }
     },
     {
-      "id": 17,
+      "id": "17",
       "type": "Full-time",
       "role": "Junior React Developer",
-      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "description": "In this role, you’ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
       "salary": "85K - 123K",
       "location": "Paris, FR",
       "company": {
@@ -239,7 +239,7 @@
       }
     },
     {
-      "id": 18,
+      "id": "18",
       "type": "Remote",
       "role": "Product Designer",
       "description": "You will be responsible for designing and implementing new features, maintaining existing systems, and participating in code reviews and architectural discussions.",
@@ -253,7 +253,7 @@
       }
     },
     {
-      "id": 19,
+      "id": "19",
       "type": "Part-time",
       "role": "Blockchain Developer",
       "description": "Your tasks will include writing clean, efficient code, debugging and testing applications, and supporting deployment processes across different environments.",
@@ -267,7 +267,7 @@
       }
     },
     {
-      "id": 20,
+      "id": "20",
       "type": "Contract",
       "role": "Software Tester",
       "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
@@ -281,7 +281,7 @@
       }
     },
     {
-      "id": 21,
+      "id": "21",
       "type": "Contract",
       "role": "Senior React Developer",
       "description": "The position involves technical leadership opportunities, mentoring junior developers, and contributing to strategic planning and decision-making processes.",
@@ -295,7 +295,7 @@
       }
     },
     {
-      "id": 22,
+      "id": "22",
       "type": "Internship",
       "role": "Senior React Developer",
       "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
@@ -309,10 +309,10 @@
       }
     },
     {
-      "id": 23,
+      "id": "23",
       "type": "Contract",
       "role": "Software Tester",
-      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "description": "In this role, you’ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
       "salary": "86K - 97K",
       "location": "Toronto, CA",
       "company": {
@@ -323,7 +323,7 @@
       }
     },
     {
-      "id": 24,
+      "id": "24",
       "type": "Freelance",
       "role": "UI/UX Designer",
       "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
@@ -337,10 +337,10 @@
       }
     },
     {
-      "id": 25,
+      "id": "25",
       "type": "Part-time",
       "role": "Senior React Developer",
-      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company’s success and direction.",
       "salary": "80K - 124K",
       "location": "Nairobi, KE",
       "company": {
@@ -351,10 +351,10 @@
       }
     },
     {
-      "id": 26,
+      "id": "26",
       "type": "Part-time",
       "role": "Software Tester",
-      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "description": "In this role, you’ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
       "salary": "77K - 110K",
       "location": "Bangalore, IN",
       "company": {
@@ -365,7 +365,7 @@
       }
     },
     {
-      "id": 27,
+      "id": "27",
       "type": "Contract",
       "role": "Cybersecurity Analyst",
       "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
@@ -379,7 +379,7 @@
       }
     },
     {
-      "id": 28,
+      "id": "28",
       "type": "Contract",
       "role": "Machine Learning Engineer",
       "description": "We are seeking a talented individual to join our team and contribute to the development of robust and scalable web applications using modern frameworks and tools.",
@@ -393,10 +393,10 @@
       }
     },
     {
-      "id": 29,
+      "id": "29",
       "type": "Internship",
       "role": "Frontend Engineer",
-      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we\u2019d love to meet you.",
+      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we’d love to meet you.",
       "salary": "83K - 94K",
       "location": "Zurich, CH",
       "company": {
@@ -407,10 +407,10 @@
       }
     },
     {
-      "id": 30,
+      "id": "30",
       "type": "Internship",
       "role": "Security Engineer",
-      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we\u2019d love to meet you.",
+      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we’d love to meet you.",
       "salary": "84K - 123K",
       "location": "Amsterdam, NL",
       "company": {
@@ -421,7 +421,7 @@
       }
     },
     {
-      "id": 31,
+      "id": "31",
       "type": "Freelance",
       "role": "Machine Learning Engineer",
       "description": "You will collaborate closely with UI/UX designers and backend developers to create seamless user experiences that meet business goals and user needs.",
@@ -435,10 +435,10 @@
       }
     },
     {
-      "id": 32,
+      "id": "32",
       "type": "Freelance",
       "role": "Cybersecurity Analyst",
-      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company’s success and direction.",
       "salary": "78K - 118K",
       "location": "London, UK",
       "company": {
@@ -449,7 +449,7 @@
       }
     },
     {
-      "id": 33,
+      "id": "33",
       "type": "Remote",
       "role": "Cloud Solutions Architect",
       "description": "You will be responsible for designing and implementing new features, maintaining existing systems, and participating in code reviews and architectural discussions.",
@@ -463,10 +463,10 @@
       }
     },
     {
-      "id": 34,
+      "id": "34",
       "type": "Internship",
       "role": "UI/UX Designer",
-      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company’s success and direction.",
       "salary": "78K - 127K",
       "location": "Melbourne, AU",
       "company": {
@@ -477,7 +477,7 @@
       }
     },
     {
-      "id": 35,
+      "id": "35",
       "type": "Freelance",
       "role": "Blockchain Developer",
       "description": "You will collaborate closely with UI/UX designers and backend developers to create seamless user experiences that meet business goals and user needs.",
@@ -491,10 +491,10 @@
       }
     },
     {
-      "id": 36,
+      "id": "36",
       "type": "Part-time",
       "role": "Blockchain Developer",
-      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we\u2019d love to meet you.",
+      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we’d love to meet you.",
       "salary": "70K - 118K",
       "location": "Toronto, CA",
       "company": {
@@ -505,7 +505,7 @@
       }
     },
     {
-      "id": 37,
+      "id": "37",
       "type": "Part-time",
       "role": "Technical Support Engineer",
       "description": "Your tasks will include writing clean, efficient code, debugging and testing applications, and supporting deployment processes across different environments.",
@@ -519,10 +519,10 @@
       }
     },
     {
-      "id": 38,
+      "id": "38",
       "type": "Internship",
       "role": "Backend Developer",
-      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "description": "In this role, you’ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
       "salary": "80K - 123K",
       "location": "Austin, US",
       "company": {
@@ -533,7 +533,7 @@
       }
     },
     {
-      "id": 39,
+      "id": "39",
       "type": "Remote",
       "role": "DevOps Engineer",
       "description": "You will be responsible for designing and implementing new features, maintaining existing systems, and participating in code reviews and architectural discussions.",
@@ -547,10 +547,10 @@
       }
     },
     {
-      "id": 40,
+      "id": "40",
       "type": "Contract",
       "role": "Junior React Developer",
-      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "description": "In this role, you’ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
       "salary": "75K - 96K",
       "location": "New York, US",
       "company": {
@@ -561,7 +561,7 @@
       }
     },
     {
-      "id": 41,
+      "id": "41",
       "type": "Contract",
       "role": "Security Engineer",
       "description": "The position involves technical leadership opportunities, mentoring junior developers, and contributing to strategic planning and decision-making processes.",
@@ -575,7 +575,7 @@
       }
     },
     {
-      "id": 42,
+      "id": "42",
       "type": "Full-time",
       "role": "Data Analyst",
       "description": "We are seeking a talented individual to join our team and contribute to the development of robust and scalable web applications using modern frameworks and tools.",
@@ -589,7 +589,7 @@
       }
     },
     {
-      "id": 43,
+      "id": "43",
       "type": "Internship",
       "role": "Blockchain Developer",
       "description": "You will be responsible for designing and implementing new features, maintaining existing systems, and participating in code reviews and architectural discussions.",
@@ -603,7 +603,7 @@
       }
     },
     {
-      "id": 44,
+      "id": "44",
       "type": "Freelance",
       "role": "Technical Support Engineer",
       "description": "This role requires a problem-solver with a keen eye for detail, capable of working collaboratively across teams to deliver high-quality software solutions.",
@@ -617,10 +617,10 @@
       }
     },
     {
-      "id": 45,
+      "id": "45",
       "type": "Internship",
       "role": "Frontend Engineer",
-      "description": "In this role, you\u2019ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
+      "description": "In this role, you’ll be involved in the entire product lifecycle, from concept to launch, and help improve our development processes and technologies.",
       "salary": "84K - 113K",
       "location": "Amsterdam, NL",
       "company": {
@@ -631,7 +631,7 @@
       }
     },
     {
-      "id": 46,
+      "id": "46",
       "type": "Internship",
       "role": "Senior React Developer",
       "description": "The position involves technical leadership opportunities, mentoring junior developers, and contributing to strategic planning and decision-making processes.",
@@ -645,10 +645,10 @@
       }
     },
     {
-      "id": 47,
+      "id": "47",
       "type": "Part-time",
       "role": "Technical Support Engineer",
-      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we\u2019d love to meet you.",
+      "description": "We value creativity and a strong work ethic. If you thrive in a fast-paced, agile environment and are committed to continuous learning, we’d love to meet you.",
       "salary": "75K - 104K",
       "location": "Zurich, CH",
       "company": {
@@ -659,7 +659,7 @@
       }
     },
     {
-      "id": 48,
+      "id": "48",
       "type": "Internship",
       "role": "QA Automation Tester",
       "description": "You will collaborate closely with UI/UX designers and backend developers to create seamless user experiences that meet business goals and user needs.",
@@ -673,10 +673,10 @@
       }
     },
     {
-      "id": 49,
+      "id": "49",
       "type": "Remote",
       "role": "Product Designer",
-      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company\u2019s success and direction.",
+      "description": "We offer a collaborative environment where your voice is heard and your contributions make a direct impact on the company’s success and direction.",
       "salary": "78K - 128K",
       "location": "Stockholm, SE",
       "company": {
@@ -687,7 +687,7 @@
       }
     },
     {
-      "id": 50,
+      "id": "50",
       "type": "Full-time",
       "role": "Project Manager",
       "description": "Ideal candidates will be self-starters who enjoy taking initiative and ownership, with strong communication skills and a passion for innovation and technology.",
@@ -698,6 +698,48 @@
         "description": "A cybersecurity company protecting businesses worldwide.",
         "contactEmail": "eqojctlr@company.com",
         "contactPhone": "+1-550-3241609"
+      }
+    },
+    {
+      "id": "9c03",
+      "type": "Full-time",
+      "role": "React Developer",
+      "description": "Develop frontend of apps",
+      "salary": "$100K-$125K",
+      "location": "IBADAN, Agbowo",
+      "company": {
+        "companyName": "Agbowo enterprises",
+        "description": "The best company in agbow",
+        "contactEmail": "adeleke@gmail.com",
+        "contactPhone": "80804957"
+      }
+    },
+    {
+      "id": "750a",
+      "type": "Full-time",
+      "role": "React Developer",
+      "description": "Develop frontend of apps",
+      "salary": "$100K-$125K",
+      "location": "IBADAN, Agbowo",
+      "company": {
+        "companyName": "Agbowo enterprises",
+        "description": "The best company in agbow",
+        "contactEmail": "adeleke@gmail.com",
+        "contactPhone": "80804957"
+      }
+    },
+    {
+      "id": "669e",
+      "type": "Full-time",
+      "role": "React inter",
+      "description": "Someone open to learn and thats teachable",
+      "salary": "Under $50K",
+      "location": "Ibadan, ojoo",
+      "company": {
+        "companyName": "Agbowo Baba",
+        "description": "Just one company there sha ",
+        "contactEmail": "Dontcao@gmail.com",
+        "contactPhone": "09796"
       }
     }
   ]
