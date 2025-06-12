@@ -4,6 +4,7 @@ import JobList from "./pages/JobList";
 import AddJobs from "./pages/AddJobs";
 import ErrorPage from "./pages/ErrorPage";
 import JobPage from "./pages/JobPage";
+import EditJob from "./pages/EditJob";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="/jobs" element={<JobList />} />
         <Route path="/add_job" element={<AddJobs />} />
         <Route path="/job/:id" element={<JobPage />} />
+        <Route path="/job/:id/edit-job/" element={<EditJob />} />
         <Route path="/*" element={<ErrorPage />} />
       </Routes>
     </Router>

@@ -12,31 +12,37 @@ export default function Nav() {
 
   const NavList = (
     <ul className="flex flex-col  md:w-[1000%] md:flex-row md:justify-evenly ">
-      <li
-        className={`px-[10px] py-[5px] hover:bg-black hover:text-[white] cursor-pointer ${
-          addBg === "Home" && "bg-[black]"
-        }`}
-        onClick={() => setAddBg("Home")}
-      >
-        <Link to="/">Home</Link>
+      <li onClick={() => setAddBg("Home")}>
+        <Link
+          className={`w-[50px] px-[20px] py-[10px] hover:bg-black hover:text-[white] cursor-pointer ${
+            addBg === "Jobs" && "bg-[black]"
+          }`}
+          to="/"
+        >
+          Home
+        </Link>
       </li>
 
-      <li
-        className={`px-[10px] py-[5px] hover:bg-black hover:text-[white] cursor-pointer ${
-          addBg === "Jobs" && "bg-[black]"
-        }`}
-        onClick={() => setAddBg("Jobs")}
-      >
-        <Link to="/jobs">Jobs</Link>
+      <li onClick={() => setAddBg("Jobs")}>
+        <Link
+          className={`px-[20px] py-[10px] hover:bg-black hover:text-[white] cursor-pointer ${
+            addBg === "Jobs" && "bg-[black]"
+          }`}
+          to="/jobs"
+        >
+          Jobs
+        </Link>
       </li>
 
-      <li
-        className={`px-[10px] py-[5px] hover:bg-black hover:text-[white] cursor-pointer ${
-          addBg === "Add job" && "bg-[black]"
-        }`}
-        onClick={() => setAddBg("Add job")}
-      >
-        <Link to="/add_job">Add job</Link>
+      <li onClick={() => setAddBg("Add job")}>
+        <Link
+          className={`px-[20px] py-[10px] hover:bg-black hover:text-[white] cursor-pointer ${
+            addBg === "Jobs" && "bg-[black]"
+          }`}
+          to="/add_job"
+        >
+          Add job
+        </Link>
       </li>
     </ul>
   );

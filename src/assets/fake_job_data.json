@@ -701,45 +701,31 @@
       }
     },
     {
-      "id": "9c03",
+      "id": "2c09",
       "type": "Full-time",
-      "role": "React Developer",
-      "description": "Develop frontend of apps",
-      "salary": "$100K-$125K",
-      "location": "IBADAN, Agbowo",
-      "company": {
-        "companyName": "Agbowo enterprises",
-        "description": "The best company in agbow",
-        "contactEmail": "adeleke@gmail.com",
-        "contactPhone": "80804957"
-      }
-    },
-    {
-      "id": "750a",
-      "type": "Full-time",
-      "role": "React Developer",
-      "description": "Develop frontend of apps",
-      "salary": "$100K-$125K",
-      "location": "IBADAN, Agbowo",
-      "company": {
-        "companyName": "Agbowo enterprises",
-        "description": "The best company in agbow",
-        "contactEmail": "adeleke@gmail.com",
-        "contactPhone": "80804957"
-      }
-    },
-    {
-      "id": "669e",
-      "type": "Full-time",
-      "role": "React inter",
-      "description": "Someone open to learn and thats teachable",
+      "role": "Render rubbish",
+      "description": "Noting serious",
       "salary": "Under $50K",
-      "location": "Ibadan, ojoo",
+      "location": "Ibadan, NG",
       "company": {
-        "companyName": "Agbowo Baba",
-        "description": "Just one company there sha ",
+        "companyName": "Goodyear",
+        "description": "Nothing to write",
         "contactEmail": "Dontcao@gmail.com",
-        "contactPhone": "09796"
+        "contactPhone": "08161630162"
+      }
+    },
+    {
+      "id": "4910",
+      "type": "Full-time",
+      "role": "render it all",
+      "description": "Noting serious",
+      "salary": "$150-$175K",
+      "location": "Ibadan, NG",
+      "company": {
+        "companyName": "Goodyear",
+        "description": "Nothing to write",
+        "contactEmail": "Dontcao@gmail.com",
+        "contactPhone": "08161630162"
       }
     }
   ]

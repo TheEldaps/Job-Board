@@ -1,14 +1,17 @@
 import Nav from "../components/Nav";
-import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
+
 import { useEffect, useState } from "react";
 import { BounceLoader } from "react-spinners";
 import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
+import {} from "react-router-dom";
 
 export default function JobPage() {
   const [job, setJob] = useState({});
   const [loading, setLoading] = useState(true);
   const { id } = useParams();
+  const navigate = useNavigate();
+  console.log("Deleting job with ID:", id);
 
   // The effect below sends a request to the API fetches the jobs in the database
   useEffect(() => {
@@ -24,26 +27,22 @@ export default function JobPage() {
       }
     }
     fetchJob();
-  }, []);
-
-  //This function handles the editing of a job detail
-  async function handleEdit(id) {
-    const res = await fetch(`http://localhost:3173/${id}`);
-  }
+  }, [id]);
 
   //This function handles the deletion of a job
-  async function handleDelete(id) {
+
+  async function handleDelete() {
     const confirm = window.confirm(
       "Are you sure you want to delete this listing?"
     );
-
     if (!confirm) {
-      return;
+      return navigate("/jobs");
     }
-
-    const res = await fetch(`http://localhost:3173/${id}`, {
+    const res = await fetch(`http://localhost:3001/jobs/${id}`, {
       method: "DELETE",
     });
+
+    return navigate("/jobs");
   }
 
   return (
@@ -103,12 +102,11 @@ export default function JobPage() {
             <aside className="bg-[white]  p-[20px] rounded-2xl shadow-[4px_4px_5px_rgba(0,0,0,0.1)]">
               <h3 className="mb-[20px] font-bold">Manage Job</h3>
               <div className="">
-                <button
-                  className="bg-[blue] block mb-[10px] mx-[auto] px-[40px] min-w-[150px] py-[5px] text-[white] hover:text-[#ffffff6d] cursor-pointer rounded"
-                  onClick={handleEdit}
-                >
-                  Edit Job
-                </button>
+                <Link to={`/job/${id}/edit-job`}>
+                  <button className="bg-[blue] block mb-[10px] mx-[auto] px-[40px] min-w-[150px] py-[5px] text-[white] hover:text-[#ffffff6d] cursor-pointer rounded">
+                    Edit Job
+                  </button>
+                </Link>
 
                 <button
                   className="bg-[red] cursor-pointer mx-[auto] px-[40px] py-[5px] block text-[white] min-w-[150px] hover:text-[#ffffff6d] rounded"

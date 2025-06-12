@@ -1,27 +1,54 @@
+import { useParams, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 import Nav from "../components/Nav";
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { BounceLoader } from "react-spinners";
 
-export default function AddJobs() {
-  const [type, setType] = useState();
-  const [title, setTitle] = useState();
-  const [description, setDescription] = useState();
-  const [salary, setSalary] = useState();
-  const [location, setLocation] = useState();
-  const [companyName, setCompanyName] = useState();
-  const [companyDescription, setCompanyDescription] = useState();
-  const [contactEmail, setContactEmail] = useState();
-  const [contactPhone, setContactPhone] = useState();
-
+export default function EditJob() {
+  const [job, setJob] = useState(null);
+  const [type, setType] = useState("");
+  const [title, setTitle] = useState("");
+  const [description, setDescription] = useState("");
+  const [salary, setSalary] = useState("");
+  const [location, setLocation] = useState("");
+  const [companyName, setCompanyName] = useState("");
+  const [companyDescription, setCompanyDescription] = useState("");
+  const [contactEmail, setContactEmail] = useState("");
+  const [contactPhone, setContactPhone] = useState("");
+  const { id } = useParams();
   const navigate = useNavigate();
 
-  function handleSubmit(e) {
+  useEffect(() => {
+    async function fetchJob() {
+      const res = await fetch(`http://localhost:3001/jobs/${id}`);
+      const data = await res.json();
+      setJob(data);
+    }
+
+    fetchJob();
+  }, []);
+
+  useEffect(() => {
+    if (job) {
+      setType(job.type || "");
+      setTitle(job.role || "");
+      setDescription(job.description || "");
+      setSalary(job.salary || "");
+      setLocation(job.location || "");
+      setCompanyName(job.company?.companyName || "");
+      setCompanyDescription(job.company?.description || "");
+      setContactEmail(job.company?.contactEmail || "");
+      setContactPhone(job.company?.contactPhone || "");
+    }
+  }, [job]);
+
+  //Function to handle the submission of the form after editing
+  function handleDetailUpdate(e) {
     e.preventDefault();
 
     //Function to add the newly created job to server
     async function addToServer(newJob) {
-      const res = await fetch("http://localhost:3001/jobs", {
-        method: "POST",
+      const res = await fetch(`http://localhost:3001/jobs/${id}`, {
+        method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(newJob),
       });
@@ -46,13 +73,16 @@ export default function AddJobs() {
     return navigate("/jobs");
   }
 
+  if (!job) return <BounceLoader />;
+
   return (
-    <section className="">
+    <section>
       <Nav />
+
       <section className="flex justify-center px-[10%] pb-[20px] min-h-[100vh] pt-[80px] bg-[#86bcf955]">
         <form
-          onSubmit={handleSubmit}
-          className=" grow max-w-[500px] w-[350px] bg-[white] pb-[20px] mb-[20px] px-[20px] border-2"
+          onSubmit={handleDetailUpdate}
+          className=" grow max-w-[500px] w-[350px] bg-[white] pb-[20px]  mb-[20px] px-[20px] border-2"
         >
           <h1 className="text-center pt-[20px] font-bold text-[1.3rem] pb-[20px] md:text-[1.9rem]">
             Add Job
@@ -67,7 +97,7 @@ export default function AddJobs() {
               <select
                 type="text"
                 id="type"
-                className="border-1 w-[100%] p-[5px]"
+                className="font-[roboto] font-[roboto] border-1 w-[100%] p-[5px]"
                 value={type}
                 onChange={(e) => {
                   setType(e.target.value);
@@ -89,7 +119,7 @@ export default function AddJobs() {
                 type="text"
                 id="job-title"
                 name="job-title"
-                className="w-[100%] p-[5px] border-1"
+                className="font-[roboto] w-[100%] p-[5px] border-1"
                 value={title}
                 onChange={(e) => {
                   setTitle(e.target.value);
@@ -104,7 +134,7 @@ export default function AddJobs() {
               <textarea
                 name="Description"
                 id="Description"
-                className="w-[100%] p-[5px] border-1"
+                className="font-[roboto] w-[100%] p-[5px] border-1"
                 rows={5}
                 value={description}
                 onChange={(e) => {
@@ -121,7 +151,7 @@ export default function AddJobs() {
               <select
                 name="salary"
                 id="salary"
-                className="border-1 w-[100%] p-[5px]"
+                className="font-[roboto] font-[roboto] border-1 w-[100%] p-[5px]"
                 value={salary}
                 onChange={(e) => {
                   setSalary(e.target.value);
@@ -149,7 +179,7 @@ export default function AddJobs() {
                 type="text"
                 id="location"
                 name="location"
-                className="w-[100%] p-[5px] border-1"
+                className="font-[roboto] w-[100%] p-[5px] border-1"
                 value={location}
                 onChange={(e) => {
                   setLocation(e.target.value);
@@ -170,7 +200,7 @@ export default function AddJobs() {
                 type="text"
                 name="comany-name"
                 id="company-name"
-                className="w-[100%] p-[5px] border-1"
+                className="font-[roboto] w-[100%] p-[5px] border-1"
                 value={companyName}
                 onChange={(e) => {
                   setCompanyName(e.target.value);
@@ -186,7 +216,7 @@ export default function AddJobs() {
               <textarea
                 name="company-description"
                 id="company-description"
-                className="w-[100%] p-[5px] border-1"
+                className="font-[roboto] w-[100%] p-[5px] border-1"
                 rows={5}
                 value={companyDescription}
                 onChange={(e) => {
@@ -203,7 +233,7 @@ export default function AddJobs() {
                 type="email"
                 id="contact-email"
                 name="contact-email"
-                className="w-[100%] p-[5px] border-1"
+                className="font-[roboto] w-[100%] p-[5px] border-1"
                 value={contactEmail}
                 onChange={(e) => {
                   setContactEmail(e.target.value);
@@ -219,7 +249,7 @@ export default function AddJobs() {
                 type="tel"
                 id="contact-phone"
                 name="contact-name"
-                className="w-[100%] p-[5px] border-1"
+                className="font-[roboto] w-[100%] p-[5px] border-1"
                 value={contactPhone}
                 onChange={(e) => {
                   setContactPhone(e.target.value);
@@ -229,7 +259,7 @@ export default function AddJobs() {
 
             <div>
               <button className="bg-[blue] w-[100%] rounded-xl py-[5px] text-[white] hover:text-[#ffffff8d] cursor-pointer">
-                Add Job
+                Update Details
               </button>
             </div>
           </section>
