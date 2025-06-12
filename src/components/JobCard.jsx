@@ -8,7 +8,7 @@ export default function JobCard({ job }) {
   let shortDetails = job.description.slice(0, 90) + "...";
 
   return (
-    <article className="bg-[white] px-[25px] py-[30px] rounded-2xl shadow-[4px_4px_5px_rgba(0,0,0,0.1)] max-w-[400px]  hover:bg-[#4a64ce6b]   transition-transform duration-300 ease-in-out hover:skew-x-2 hover:-rotate-1 hover:scale-95">
+    <article className="bg-[white] px-[25px] py-[30px] rounded-2xl shadow-[4px_4px_5px_rgba(0,0,0,0.1)] max-w-[400px] h-[380px]  md:min-w-[200px] md:h-[300px] hover:bg-[#4a64ce6b] transition-transform duration-300 ease-in-out hover:skew-x-2 hover:-rotate-1 hover:scale-95">
       <h3 className="mb-[5px] text-[#333232]">{job.type}</h3>
       <h2 className="text-[1.3rem] mb-[20px] font-bold">{job.role}</h2>
       <p className="mb-[20px] text-[0.9rem] text-justify">

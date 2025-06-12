@@ -45,7 +45,7 @@ export default function JobList() {
             </div>
           ) : (
             <div
-              className={`grid grid-cols-1 md:grid-cols-3 gap-[20px] place-items-center max-w-[90%] mx-auto py-[10px] transition-all duration-700 ease-in-out transform ${
+              className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px] place-items-center max-w-[90%] mx-auto py-[10px] transition-all duration-700 ease-in-out transform ${
                 loading
                   ? "opacity-0 translate-y-[200px]"
                   : "opacity-100 translate-y-0"

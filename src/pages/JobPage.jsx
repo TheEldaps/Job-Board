@@ -13,7 +13,7 @@ export default function JobPage() {
   const navigate = useNavigate();
   console.log("Deleting job with ID:", id);
 
-  // The effect below sends a request to the API fetches the jobs in the database
+  //The effect below sends a request to the API fetches the jobs in the database
   useEffect(() => {
     async function fetchJob() {
       try {
@@ -51,14 +51,16 @@ export default function JobPage() {
       <div className="p-[10px] pl-[30px] md:ml-[130px] ">
         <Link
           to="/jobs"
-          className="flex text-[blue] text-[1.1rem] h-[40px] hover:text-[#0000ff4f]"
+          className=" text-[blue] text-[1.1rem] h-[20px] hover:text-[#0000ff4f]"
         >
-          <FaArrowLeft className="text-[blue] mr-[4px] mt-[5px] hover:text-[#0000ff4f]" />
+          <FaArrowLeft className="inline text-[blue]  mr-[4px] mt-[-2px] " />
           Back
         </Link>
       </div>
       {loading ? (
-        <BounceLoader />
+        <div className="flex justify-center items-center h-[82vh] ">
+          <BounceLoader color="#1717ba" />
+        </div>
       ) : (
         <section className="grid md:grid-cols-[2fr_1fr] gap-[20px] md:gap-[40px] px-[30px] pb-[20px] bg-[#efeeee] pt-[50px] md:px-[150px]">
           <div className="">

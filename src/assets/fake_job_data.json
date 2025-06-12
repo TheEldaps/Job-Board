@@ -701,31 +701,17 @@
       }
     },
     {
-      "id": "2c09",
-      "type": "Full-time",
-      "role": "Render rubbish",
-      "description": "Noting serious",
-      "salary": "Under $50K",
-      "location": "Ibadan, NG",
-      "company": {
-        "companyName": "Goodyear",
-        "description": "Nothing to write",
-        "contactEmail": "Dontcao@gmail.com",
-        "contactPhone": "08161630162"
-      }
-    },
-    {
-      "id": "4910",
-      "type": "Full-time",
-      "role": "render it all",
-      "description": "Noting serious",
+      "id": "8769",
+      "type": "Internship",
+      "role": "nothing",
+      "description": "Notyhing more",
       "salary": "$150-$175K",
-      "location": "Ibadan, NG",
+      "location": "nig",
       "company": {
-        "companyName": "Goodyear",
-        "description": "Nothing to write",
-        "contactEmail": "Dontcao@gmail.com",
-        "contactPhone": "08161630162"
+        "companyName": "donatus",
+        "description": "dghet inside",
+        "contactEmail": "ade@gmail.com",
+        "contactPhone": "89756"
       }
     }
   ]
