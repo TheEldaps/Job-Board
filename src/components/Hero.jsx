@@ -1,10 +1,24 @@
 import { Typewriter } from "react-simple-typewriter";
 
-export default function Hero() {
+export default function Hero({ showNav }) {
+  console.log(showNav);
   return (
-    <section className="flex flex-col justify-center h-[200px] md:h-[95vh] text-center bg-[#1717ba] text-[white] ">
-      <h1 className="text-[2rem] text-center font-bold mb-[10px] md:text-[5rem]">
-        <span> Become a</span>
+    <section
+      style={{
+        backgroundImage: "url('./src/assets/BackgroundPicture.jpg')",
+      }}
+      className="flex flex-col justify-center  px-[20px] h-[95vh] text-center text-[white] "
+    >
+      <div
+        className={`absolute  h-[95vh] md:top-[60px] ${
+          showNav ? "top-[210px]" : "top-[60px]"
+        } inset-0 bg-blue-800 opacity-40`}
+      ></div>
+      <h1 className="text-[2.2rem] pb-[10px] z-10 text-center font-bold mb-[10px] sm:text-[3rem] md:text-[5rem]">
+        <span>
+          {" "}
+          Become a <br />
+        </span>
 
         <span>
           <Typewriter
@@ -23,7 +37,7 @@ export default function Hero() {
           />
         </span>
       </h1>
-      <p className="md:text-[1.8rem]">
+      <p className="text-[1.3rem] md:text-[1.8rem] z-10">
         Find a job that fits your skills and needs
       </p>
     </section>

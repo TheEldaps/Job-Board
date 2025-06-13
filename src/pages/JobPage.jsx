@@ -53,7 +53,7 @@ export default function JobPage() {
           to="/jobs"
           className=" text-[blue] text-[1.1rem] h-[20px] hover:text-[#0000ff4f]"
         >
-          <FaArrowLeft className="inline text-[blue]  mr-[4px] mt-[-2px] " />
+          <FaArrowLeft className="inline text-[blue]  mr-[4px] mt-[-2px]" />
           Back
         </Link>
       </div>
