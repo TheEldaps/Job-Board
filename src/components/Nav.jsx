@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import NavImg from "../assets/TechNest-01.png";
+import NavImg from "../assets/TechNestLogo.png";
 
 export default function Nav({ setShowNav, showNav }) {
   const [addBg, setAddBg] = useState("");
