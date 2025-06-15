@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import NavImg from "../assets/TechNestLogo.png";
+import NavImg from "../assets/TechNestLogoV1.png";
 
 export default function Nav({ setShowNav, showNav }) {
   const [addBg, setAddBg] = useState("");
@@ -49,13 +49,14 @@ export default function Nav({ setShowNav, showNav }) {
   return (
     <header>
       <nav className="flex justify-around items-center text-[white] text-[1.3rem] font-[Arial] bg-[#000000e0]  h-[60px] bg-blue ">
-        <div className=" flex  items-center min-w-[250px] h-[100%]">
+        <Link className=" flex  items-center min-w-[250px] h-[100%]">
           <img
             src={NavImg}
             alt="Business Logo"
-            className="w-[80px] mt-[20px] h-[80px] mr-[10px]"
+            className="block w-[60px]  mr-[10px]"
           />
-        </div>
+          <h1 className="font-[Nelda]">TechNest</h1>
+        </Link>
 
         <div className="md:hidden">
           <button
