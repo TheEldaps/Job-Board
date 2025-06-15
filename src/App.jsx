@@ -5,7 +5,8 @@ import AddJobs from "./pages/AddJobs";
 import ErrorPage from "./pages/ErrorPage";
 import JobPage from "./pages/JobPage";
 import EditJob from "./pages/EditJob";
-import "./index.css";
+// import "./index.css";
+import NavAndHero from "./components/NavAndHero";
 
 export default function App() {
   return (

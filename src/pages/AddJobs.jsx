@@ -52,9 +52,9 @@ export default function AddJobs() {
       <section className="flex justify-center px-[10%] pb-[20px] min-h-[100vh] pt-[80px] bg-[#86bcf955]">
         <form
           onSubmit={handleSubmit}
-          className=" grow max-w-[500px] w-[350px] bg-[white] pb-[20px] mb-[20px] px-[20px] border-2"
+          className=" grow max-w-[500px] w-[350px] bg-[#f2f2ec] pb-[20px] mb-[20px] px-[20px] border-2"
         >
-          <h1 className="text-center pt-[20px] font-bold text-[1.3rem] pb-[20px] md:text-[1.9rem]">
+          <h1 className="text-center text-[#4a64ce] pt-[20px] font-bold text-[1.3rem] pb-[20px] md:text-[1.9rem]">
             Add Job
           </h1>
 
@@ -161,7 +161,9 @@ export default function AddJobs() {
           <br />
 
           <section>
-            <h2 className="text-[1.3rem] font-bold mb-[10px]">Company Info</h2>
+            <h2 className="text-[1.3rem] text-[#4a64ce] font-bold mb-[10px]">
+              Company Info
+            </h2>
             <div className="mb-[20px]">
               <label htmlFor="company-name" className="block">
                 Company Name

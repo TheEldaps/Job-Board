@@ -14,7 +14,7 @@ export default function Nav({ setShowNav, showNav }) {
       <li onClick={() => setAddBg("Home")}>
         <Link
           className={`block px-[20px]  py-[10px]  hover:bg-[#0000ff78] text-[white] cursor-pointer ${
-            addBg === "Jobs" && "bg-[black]"
+            addBg === "Home" && "hover:bg-[#0000ff78]"
           }`}
           to="/"
         >
@@ -49,7 +49,7 @@ export default function Nav({ setShowNav, showNav }) {
   return (
     <header>
       <nav className="flex justify-around items-center text-[white] text-[1.3rem] font-[Arial] bg-[#000000e0]  h-[60px] bg-blue ">
-        <Link className=" flex  items-center min-w-[250px] h-[100%]">
+        <Link to="/" className=" flex  items-center min-w-[250px] h-[100%]">
           <img
             src={NavImg}
             alt="Business Logo"
