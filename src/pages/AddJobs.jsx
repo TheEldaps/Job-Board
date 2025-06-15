@@ -48,7 +48,7 @@ export default function AddJobs() {
 
   return (
     <section className="">
-      <Nav />
+      <Nav addJob={true} />
       <section className="flex justify-center px-[10%] pb-[20px] min-h-[100vh] pt-[80px] bg-[#86bcf955]">
         <form
           onSubmit={handleSubmit}

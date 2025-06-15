@@ -7,7 +7,7 @@ export default function NavAndHero() {
 
   return (
     <section>
-      <Nav showNav={showNav} setShowNav={setShowNav} />
+      <Nav showNav={showNav} setShowNav={setShowNav} home={true} />
       <Hero showNav={showNav} />
     </section>
   );

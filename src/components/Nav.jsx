@@ -1,9 +1,15 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Link } from "react-router-dom";
 import NavImg from "../assets/TechNestLogoV1.png";
 
-export default function Nav({ setShowNav, showNav }) {
-  const [addBg, setAddBg] = useState("");
+export default function Nav({
+  setShowNav,
+  showNav,
+  home = false,
+  jobs = false,
+  addJob = false,
+}) {
+  // const [addBg, setAddBg] = useState("");
 
   function handleClick() {
     setShowNav((prev) => !prev);
@@ -11,21 +17,20 @@ export default function Nav({ setShowNav, showNav }) {
 
   const NavList = (
     <ul className="flex border-white flex-col text-[1.1rem] gap-[5px] md:w-[1000%] md:flex-row md:justify-evenly ">
-      <li onClick={() => setAddBg("Home")}>
+      <li>
         <Link
-          className={`block px-[20px]  py-[10px]  hover:bg-[#0000ff78] text-[white] cursor-pointer ${
-            addBg === "Home" && "hover:bg-[#0000ff78]"
-          }`}
+          // onClick={() => setAddBg("Home")}
+          className={`block px-[20px]  py-[10px]  hover:bg-[#0000ff78] text-[white] cursor-pointer`}
           to="/"
         >
           Home
         </Link>
       </li>
 
-      <li onClick={() => setAddBg("Jobs")}>
+      <li>
         <Link
           className={`block px-[20px] py-[10px] hover:bg-[#0000ff78] text-[white] cursor-pointer ${
-            addBg === "Jobs" && "bg-[black]"
+            jobs === true && "bg-[#0000ff78]"
           }`}
           to="/jobs"
         >
@@ -33,10 +38,10 @@ export default function Nav({ setShowNav, showNav }) {
         </Link>
       </li>
 
-      <li onClick={() => setAddBg("Add job")}>
+      <li>
         <Link
           className={`block px-[20px] py-[10px] hover:bg-[#0000ff78] text-[white] cursor-pointer ${
-            addBg === "Jobs" && "bg-[black]"
+            addJob === true && "bg-[#0000ff78]"
           }`}
           to="/add_job"
         >
