@@ -8,7 +8,7 @@ export default function NavAndHero() {
   return (
     <section>
       <Nav />
-      <Hero showNav={showNav} />
+      <Hero />
     </section>
   );
 }

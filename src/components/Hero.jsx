@@ -1,10 +1,11 @@
 import { Typewriter } from "react-simple-typewriter";
+import HeroBackground from "./../assets/backgroundPicture.jpg";
 
 export default function Hero() {
   return (
     <section
       style={{
-        backgroundImage: "url('./src/assets/BackgroundPicture.jpg')",
+        backgroundImage: `url(${HeroBackground})`,
       }}
       className="flex flex-col justify-center  px-[20px] h-[95vh] text-center text-[white] "
     >

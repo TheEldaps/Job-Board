@@ -22,7 +22,7 @@ export default function JobList() {
       }
     }
 
-    const delayInMs = Math.floor(Math.random() * 4 + 1) * 1000;
+    const delayInMs = Math.floor(Math.random() * 2 + 1) * 1000;
     const timer = setTimeout(fetchJobs, delayInMs);
     return () => clearTimeout(timer);
   }, []);
@@ -36,7 +36,7 @@ export default function JobList() {
         </h2>
         <div className="mx-[auto]">
           {loading ? (
-            <div className="flex justify-center items-center h-[100%] mx-[500px] ">
+            <div className="flex justify-center items-center h-[100%]">
               <BounceLoader
                 color="#1717ba"
                 size={80}
@@ -49,7 +49,7 @@ export default function JobList() {
             <div
               className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[30px] place-items-center max-w-[90%] mx-auto py-[10px] transition-all duration-700 ease-in-out transform ${
                 loading
-                  ? "opacity-0 translate-y-[200px]"
+                  ? "opacity-0 hidden translate-y-[200px]"
                   : "opacity-100 translate-y-0"
               }`}
             >
