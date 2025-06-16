@@ -49,11 +49,14 @@ export default function EditJob() {
 
     //Function to add the newly created job to server
     async function addToServer(newJob) {
-      const res = await fetch(`http://localhost:3001/jobs/${id}`, {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(newJob),
-      });
+      const res = await fetch(
+        `https://job-board-backend-805t.onrender.com/jobs/${id}`,
+        {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(newJob),
+        }
+      );
     }
 
     //create the new job using the value in the states above
@@ -75,7 +78,18 @@ export default function EditJob() {
     return navigate("/jobs");
   }
 
-  if (!job) return <BounceLoader />;
+  if (!job)
+    return (
+      <div className="h-[100vh] w-[100%] border-1 flex justify-center items-center">
+        <BounceLoader
+          color="#1717ba"
+          size={80}
+          loading={true}
+          speedMultiplier={1.5}
+          cssOverride={{ margin: "200px auto" }}
+        />
+      </div>
+    );
 
   return (
     <section>
@@ -99,7 +113,7 @@ export default function EditJob() {
               <select
                 type="text"
                 id="type"
-                className="font-[roboto] font-[roboto] border-1 w-[100%] p-[5px]"
+                className="font-[roboto] border-1 w-[100%] p-[5px]"
                 value={type}
                 onChange={(e) => {
                   setType(e.target.value);
@@ -153,7 +167,7 @@ export default function EditJob() {
               <select
                 name="salary"
                 id="salary"
-                className="font-[roboto] font-[roboto] border-1 w-[100%] p-[5px]"
+                className=" font-[roboto] border-1 w-[100%] p-[5px]"
                 value={salary}
                 onChange={(e) => {
                   setSalary(e.target.value);
