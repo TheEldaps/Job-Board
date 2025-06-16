@@ -1,13 +1,11 @@
 import { Link } from "react-router-dom";
 import NavImg from "../assets/TechNestLogoV1.png";
+import { useState } from "react";
 
-export default function Nav({
-  setShowNav,
-  showNav,
+export default function Nav() {
+  const [showNav, setShowNav] = useState(false);
+  const [addBg, setAddBg] = useState("");
 
-  jobs = false,
-  addJob = false,
-}) {
   function handleClick() {
     setShowNav((prev) => !prev);
   }
@@ -25,8 +23,11 @@ export default function Nav({
 
       <li>
         <Link
+          onClick={() => {
+            setAddBg("jobs");
+          }}
           className={`block px-[20px] py-[10px] hover:bg-[#0000ff78] text-[white] cursor-pointer ${
-            jobs === true && "bg-[#0000ff78]"
+            addBg === "jobs" && "bg-[#0000ff78]"
           }`}
           to="/jobs"
         >
@@ -36,8 +37,11 @@ export default function Nav({
 
       <li>
         <Link
+          onClick={() => {
+            setAddBg("add-job");
+          }}
           className={`block px-[20px] py-[10px] hover:bg-[#0000ff78] text-[white] cursor-pointer ${
-            addJob === true && "bg-[#0000ff78]"
+            addBg === "add-job" && "bg-[#0000ff78]"
           }`}
           to="/add_job"
         >

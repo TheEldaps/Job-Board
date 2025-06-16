@@ -1,7 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
 
-export default function Hero({ showNav }) {
-  console.log(showNav);
+export default function Hero() {
   return (
     <section
       style={{
@@ -9,11 +8,11 @@ export default function Hero({ showNav }) {
       }}
       className="flex flex-col justify-center  px-[20px] h-[95vh] text-center text-[white] "
     >
-      <div
+      {/* <div
         className={`absolute  h-[95vh] md:top-[60px] ${
           showNav ? "top-[210px]" : "top-[60px]"
         } inset-0 bg-blue-800 opacity-40`}
-      ></div>
+      ></div> */}
       <h1 className="text-[2.2rem] pb-[10px] z-10 text-center font-bold mb-[10px] sm:text-[3rem] md:text-[5rem]">
         <span>
           {" "}

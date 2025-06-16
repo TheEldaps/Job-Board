@@ -10,7 +10,6 @@ import NavAndHero from "./components/NavAndHero";
 
 export default function App() {
   return (
-    // <NavAndHero />
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />

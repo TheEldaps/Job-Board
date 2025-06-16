@@ -29,7 +29,7 @@ export default function JobList() {
 
   return (
     <>
-      <Nav jobs={true} />
+      <Nav />
       <section className="bg-[#86bcf955] min-h-[100vh] pt-[30px] px-[20px] pb-[20px]">
         <h2 className="text-[1.7rem] text-center font-bold text-[#4a64ce] my-[10px]">
           All Jobs
