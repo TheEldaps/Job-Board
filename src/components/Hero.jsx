@@ -7,16 +7,11 @@ export default function Hero() {
       style={{
         backgroundImage: `url(${HeroBackground})`,
       }}
-      className="flex flex-col justify-center  px-[20px] h-[95vh] text-center text-[white] "
+      className="flex flex-col relative justify-center  px-[20px] h-[50vh] md:h-[95vh] text-center text-[white] bg-cover  "
     >
-      {/* <div
-        className={`absolute  h-[95vh] md:top-[60px] ${
-          showNav ? "top-[210px]" : "top-[60px]"
-        } inset-0 bg-blue-800 opacity-40`}
-      ></div> */}
+      <div className="absolute  inset-0 bg-blue-800 opacity-40 "></div>
       <h1 className="text-[2.2rem] pb-[10px] z-10 text-center font-bold mb-[10px] sm:text-[3rem] md:text-[5rem]">
         <span>
-          {" "}
           Become a <br />
         </span>
 
