@@ -1,16 +1,13 @@
-// import { useState } from "react";
 import { Link } from "react-router-dom";
 import NavImg from "../assets/TechNestLogoV1.png";
 
 export default function Nav({
   setShowNav,
   showNav,
-  home = false,
+
   jobs = false,
   addJob = false,
 }) {
-  // const [addBg, setAddBg] = useState("");
-
   function handleClick() {
     setShowNav((prev) => !prev);
   }
@@ -19,7 +16,6 @@ export default function Nav({
     <ul className="flex border-white flex-col text-[1.1rem] gap-[5px] md:w-[1000%] md:flex-row md:justify-evenly ">
       <li>
         <Link
-          // onClick={() => setAddBg("Home")}
           className={`block px-[20px]  py-[10px]  hover:bg-[#0000ff78] text-[white] cursor-pointer`}
           to="/"
         >

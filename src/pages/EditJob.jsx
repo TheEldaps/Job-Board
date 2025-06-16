@@ -19,7 +19,9 @@ export default function EditJob() {
 
   useEffect(() => {
     async function fetchJob() {
-      const res = await fetch(`http://localhost:3001/jobs/${id}`);
+      const res = await fetch(
+        `https://job-board-backend-805t.onrender.com/jobs/${id}`
+      );
       const data = await res.json();
       setJob(data);
     }

@@ -10,7 +10,9 @@ export default function JobList() {
   useEffect(() => {
     async function fetchJobs() {
       try {
-        const res = await fetch("http://localhost:3001/jobs");
+        const res = await fetch(
+          "https://job-board-backend-805t.onrender.com/jobs"
+        );
         const jobData = await res.json();
         setJobData(jobData);
       } catch (error) {

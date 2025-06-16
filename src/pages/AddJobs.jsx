@@ -20,11 +20,14 @@ export default function AddJobs() {
 
     //Function to add the newly created job to server
     async function addToServer(newJob) {
-      const res = await fetch("http://localhost:3001/jobs", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(newJob),
-      });
+      const res = await fetch(
+        "https://job-board-backend-805t.onrender.com/jobs",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(newJob),
+        }
+      );
     }
 
     //create the new job using the value in the states above

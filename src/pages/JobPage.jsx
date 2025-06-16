@@ -17,7 +17,9 @@ export default function JobPage() {
   useEffect(() => {
     async function fetchJob() {
       try {
-        const rep = await fetch(`http://localhost:3001/jobs/${id}`);
+        const rep = await fetch(
+          `https://job-board-backend-805t.onrender.com/jobs/${id}`
+        );
         const data = await rep.json();
         setJob(data);
       } catch (error) {
